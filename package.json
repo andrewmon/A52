@@ -12,6 +12,10 @@
     "morgan": "^1.6.1",
     "request": "^2.67.0"
   },
+  "scripts": {
+  "start" : "npm install && node server.js",
+  "postinstall": "bower install"
+  },
   "devDependencies": {
     "should": "^7.1.1",
     "supertest": "^1.1.0"
